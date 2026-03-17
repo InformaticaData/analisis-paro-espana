@@ -49,7 +49,7 @@ Los datos utilizados en este proyecto provienen de fuentes públicas como el Ins
 
 1. Clonar el repositorio:
 
-git clone https://github.com/tu-usuario/analisis-paro-espana.git
+git clone https://github.com/InformaticaData/analisis-paro-espana.git
 
 2. Acceder a la carpeta del proyecto:
 
@@ -78,8 +78,6 @@ En este proyecto se realizan tareas como:
 
 ## 📷 Resultados
 
-(Aquí puedes añadir imágenes de tus gráficos, por ejemplo:)
-
 ![Ejemplo gráfico](images/grafico_paro.png)
 
 ---
@@ -102,7 +100,7 @@ En este proyecto se realizan tareas como:
 
 ## 👨‍💻 Autor
 
-Proyecto desarrollado por [Tu Nombre], analista de datos y docente en Formación Profesional especializado en informática.
+Proyecto desarrollado por Carlos, analista de datos y docente en Formación Profesional especializado en informática.
 
 ---
 
