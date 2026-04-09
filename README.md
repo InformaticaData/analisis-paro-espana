@@ -2,111 +2,153 @@
 
 ## 📌 Descripción del proyecto
 
-Este proyecto consiste en un análisis exploratorio de datos sobre el paro en España utilizando herramientas de análisis de datos en Python.
+Proyecto de **análisis exploratorio de datos** utilizando datasets públicos del **Instituto Nacional de Estadística (INE)**.
 
-El objetivo es trabajar con datos reales procedentes de fuentes públicas y aplicar un flujo de trabajo profesional: carga, limpieza, análisis y visualización de datos.
+El objetivo de este proyecto es mostrar, de forma práctica, cómo utilizar **Python y librerías de análisis de datos** para analizar la evolución de la tasa de paro en España.
 
----
-
-## 🎯 Objetivos
-
-* Analizar la evolución del paro en España
-* Comparar datos entre comunidades autónomas
-* Identificar tendencias a lo largo del tiempo
-* Practicar un flujo de trabajo completo de análisis de datos
+Este análisis forma parte del proyecto educativo **InformaticaData España**, orientado a aprender análisis de datos utilizando datasets reales.
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 📁 Estructura del proyecto
 
-analisis-paro-espana/
+```
+analisis-paro-espana
 │
-├── data/           # Dataset utilizado (CSV)
-├── notebooks/      # Análisis en Jupyter Notebook
-├── src/            # Scripts de limpieza y procesamiento (opcional)
-├── images/         # Gráficas generadas
-├── README.md       # Documentación del proyecto
-└── requirements.txt
+├── data
+│   └── paro_2002_2025.csv
+│
+├── notebooks
+│   └── analisis.ipynb
+│
+├── images
+│   └── evolucion_paro_espana.png
+│
+├── requirements.txt
+└── README.md
+```
+
+* **data/** → Dataset utilizado en el análisis
+* **notebooks/** → Notebook con el análisis completo
+* **images/** → Visualizaciones generadas
+* **requirements.txt** → Dependencias del proyecto
+
+---
+
+## 📚 Dataset
+
+Los datos utilizados proceden del **Instituto Nacional de Estadística (INE)** y contienen información sobre la **tasa de paro en España por periodos trimestrales**.
+
+El dataset incluye variables como:
+
+* Periodo
+* Provincia
+* Tipo de tasa
+* Valor de la tasa de paro
+
+En este análisis se utiliza el **Total Nacional** para estudiar la evolución temporal.
 
 ---
 
 ## 🧰 Tecnologías utilizadas
 
 * Python
-* pandas
-* matplotlib
+* Pandas
+* Matplotlib
 * Jupyter Notebook
 
----
+Estas herramientas permiten realizar procesos completos de análisis de datos:
 
-## 📊 Dataset
-
-Los datos utilizados en este proyecto provienen de fuentes públicas como el Instituto Nacional de Estadística (INE).
-
----
-
-## ▶️ Cómo ejecutar el proyecto
-
-1. Clonar el repositorio:
-
-git clone https://github.com/InformaticaData/analisis-paro-espana.git
-
-2. Acceder a la carpeta del proyecto:
-
-cd analisis-paro-espana
-
-3. Instalar dependencias:
-
-pip install -r requirements.txt
-
-4. Ejecutar el notebook:
-
-Abrir notebooks/analisis.ipynb en Jupyter Notebook o VS Code.
-
----
-
-## 📈 Ejemplo de análisis
-
-En este proyecto se realizan tareas como:
-
+* Carga de datos
 * Limpieza de datos
-* Agrupación por comunidades autónomas
-* Análisis temporal del paro
-* Visualización de tendencias
+* Transformación
+* Visualización
 
 ---
 
-## 📷 Resultados
+## 📈 Resultado del análisis
 
-![Ejemplo gráfico](images/grafico_paro.png)
+El análisis permite visualizar la evolución anual de la tasa de paro en España.
+
+![Evolución del paro en España](images/evolucion_paro_espana.png)
+
+Entre los aspectos más relevantes se pueden observar:
+
+* Incremento exponencial del paro durante la crisis económica de 2008.
+* Máximo alrededor de 2013.
+* Descenso progresivo en años posteriores sin llegar a recuperar los valores previos a la crisis.
+* Impacto visible durante el periodo de la pandemia.
 
 ---
 
-## 🧠 Conclusiones
+## 🚀 Cómo ejecutar el proyecto
 
-* Existen diferencias significativas entre comunidades autónomas
-* Se observan tendencias temporales claras en determinados periodos
-* El análisis de datos permite obtener insights relevantes a partir de información pública
+1. Clonar el repositorio
+
+```
+git clone https://github.com/InformaticaData/analisis-paro-espana 
+```
+
+2. Acceder a la carpeta del proyecto
+
+```
+cd analisis-paro-espana
+```
+
+3. Crear un entorno virtual
+
+```
+python -m venv venv
+```
+
+4. Activar el entorno
+
+Mac / Linux
+
+```
+source venv/bin/activate
+```
+
+Windows
+
+```
+venv\Scripts\activate
+```
+
+5. Instalar dependencias
+
+```
+pip install -r requirements.txt
+```
+
+6. Abrir el notebook
+
+```
+notebooks/analisis.ipynb
+```
 
 ---
 
-## 🚀 Próximos pasos
+## 🌐 Artículo del blog
 
-* Incluir más variables (edad, género, sectores)
-* Realizar análisis más avanzados
-* Incorporar visualizaciones interactivas
+Este análisis se explica paso a paso en el artículo publicado en:
+
+**InformaticaData España**
+
+Aprende análisis de datos utilizando **datasets públicos y ejemplos reales**.
 
 ---
 
 ## 👨‍💻 Autor
 
-Proyecto desarrollado por Carlos, analista de datos y docente en Formación Profesional especializado en informática.
+**Carlos Hernández**
 
----
+Docente de Informática y Analista de Datos.
 
-## 🔗 Enlace al artículo
+Proyecto educativo:
 
-Puedes ver la explicación completa del proyecto en el blog:
-(Añadir aquí el enlace a tu artículo)
+**InformaticaData España**
+
+Aprende análisis de datos con datasets reales utilizando Python.
 
 ---
