@@ -135,7 +135,7 @@ Este análisis se explica paso a paso en el artículo publicado en:
 
 **InformaticaData España**
 
-Aprende análisis de datos utilizando **datasets públicos y ejemplos reales**.
+https://informaticadata.es/analisis-del-paro-en-espana-con-python/
 
 ---
 
