@@ -70,7 +70,7 @@ Estas herramientas permiten realizar procesos completos de análisis de datos:
 
 El análisis permite visualizar la evolución anual de la tasa de paro en España.
 
-![Evolución del paro en España](images/evolucion_paro_espana.png)
+![Evolución del paro en España](images/evolucion_paro_espana.svg)
 
 Entre los aspectos más relevantes se pueden observar:
 
